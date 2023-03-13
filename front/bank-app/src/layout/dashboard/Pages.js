@@ -6,8 +6,11 @@ import {Send} from "../../pages/send/send";
 import {Request} from "../../pages/request/request";
 import Settings from "../../pages/Settings";
 import SignUp from "../../pages/auth/SignUp"
+import {Translation} from "react-i18next";
 
 const Pages = () => (
+    <Translation>
+        {(t,{i18n}) => (
     <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
@@ -17,6 +20,8 @@ const Pages = () => (
         <Route path="/settings" element={<Settings/>}/>
             <Route path="/signup" element={<SignUp/>}/>
     </Routes>
+)}
+</Translation>
 )
 
 export default Pages;

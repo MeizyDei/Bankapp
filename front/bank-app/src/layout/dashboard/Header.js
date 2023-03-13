@@ -9,12 +9,16 @@ import {AccountCircle} from "@mui/icons-material";
 import {useNavigate} from "react-router-dom";
 import {Button} from "@mui/material";
 import SettingsIcon from '@mui/icons-material/Settings';
-
+import {i18n} from "../../i18nConfig/i18nConfig";
+import {Translation} from "react-i18next";
 
 
 const Header = ({drawerWidth, open, toggleDrawer}) => {
 
-
+    const changeLanguage = (e) => {
+        i18n.changeLanguage(e.target.value);
+        console.log("pakeitem kalba");
+    }
 
 
     const navigate = useNavigate()
@@ -38,48 +42,69 @@ const Header = ({drawerWidth, open, toggleDrawer}) => {
     }));
 
     return (
-        <AppBar position="absolute" open={open}>
-            <Toolbar
-                sx={{
-                    pr: '24px', // keep right padding when drawer closed
-                }}
-            >
-                <IconButton
-                    edge="start"
-                    color="inherit"
-                    aria-label="open drawer"
-                    onClick={toggleDrawer}
-                    sx={{
-                        marginRight: '36px',
-                        ...(open && {display: 'none'}),
-                    }}
-                >
-                    <MenuIcon/>
-                </IconButton>
-                <Typography
-                    component="h1"
-                    variant="h6"
-                    color="inherit"
-                    noWrap
-                    sx={{flexGrow: 1}}
-                >
-                    Bank app
-                </Typography>
-                <IconButton color="inherit" onClick={() => navigate('/settings')}>
-                        <SettingsIcon/>
-                </IconButton>
-                <IconButton color="inherit">
-                </IconButton>
-                <Button variant="contained" startIcon={<AccountCircle />}
-                        onClick={() => navigate('/signup')}
-                        color="secondary"
+        <Translation>
+            {(t, {i18n}) => (
+                <AppBar position="absolute" open={open}>
+                    <Toolbar
                         sx={{
-                            ml: 1
-                        }}>
-                    Sign Up
-                </Button>
-            </Toolbar>
-        </AppBar>
+                            pr: '24px', // keep right padding when drawer closed
+                        }}
+                    >
+                        <IconButton
+                            edge="start"
+                            color="inherit"
+                            aria-label="open drawer"
+                            onClick={toggleDrawer}
+                            sx={{
+                                marginRight: '36px',
+                                ...(open && {display: 'none'}),
+                            }}
+                        >
+                            <MenuIcon/>
+                        </IconButton>
+                        <Typography
+                            component="h1"
+                            variant="h6"
+                            color="inherit"
+                            noWrap
+                            sx={{flexGrow: 1}}
+                        >
+                            {t("bBankApp")}
+                        </Typography>
+                        <Translation>
+                            {(t, {i18n}) => (
+                                <>
+                                    <select value={t("language") === "en" ? "en" : "lt"}
+                                            style={{minHeight: "35px", marginLeft: "7px"}}
+                                            onChange={changeLanguage}>
+                                        <option value="en">
+                                            English
+                                        </option>
+                                        <option value="lt">
+                                            Lietuvių
+                                        </option>
+                                    </select>
+                                </>
+                            )}
+                        </Translation>
+                        <IconButton color="inherit" onClick={() => navigate('/settings')}>
+                            <SettingsIcon/>
+                        </IconButton>
+                        <IconButton color="inherit">
+                        </IconButton>
+                        <Button variant="contained" startIcon={<AccountCircle/>}
+                                onClick={() => navigate('/signup')}
+                                color="secondary"
+                                sx={{
+                                    ml: 1
+                                }}
+                        >
+                            {t("pSignUp")}
+                        </Button>
+                    </Toolbar>
+                </AppBar>
+            )}
+        </Translation>
     )
 }
 
