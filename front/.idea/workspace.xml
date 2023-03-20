@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c48ad29-2446-4f80-9bd4-f0268f2d9c6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-app/src/layout/dashboard/Language.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-app/src/layout/navbar/navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app/src/layout/dashboard/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app/src/layout/dashboard/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app/src/components/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app/src/layout/dashboard/AppDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app/src/layout/dashboard/AppDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app/src/layout/dashboard/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app/src/layout/dashboard/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app/src/pages/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app/src/pages/Settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +42,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/deivi/GIT/Bank/front/bank-app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,6 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/bank-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,6 +107,7 @@
       <updated>1678693146438</updated>
       <workItem from="1678693147443" duration="9122000" />
       <workItem from="1678731714715" duration="21000" />
+      <workItem from="1679055284092" duration="1253000" />
     </task>
     <servers />
   </component>
