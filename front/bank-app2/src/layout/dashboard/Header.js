@@ -41,6 +41,7 @@ const Header = ({drawerWidth, open, toggleDrawer}) => {
         }),
     }));
 
+
     return (
         <Translation>
             {(t, {i18n}) => (
@@ -92,6 +93,15 @@ const Header = ({drawerWidth, open, toggleDrawer}) => {
                         </IconButton>
                         <IconButton color="inherit">
                         </IconButton>
+                        <Button variant="contained" startIcon={<AccountCircle/>}
+                                onClick={() => navigate('/login')}
+                                color="secondary"
+                                sx={{
+                                    ml: 1
+                                }}
+                        >
+                            {t("pLogin")}
+                        </Button>
                         <Button variant="contained" startIcon={<AccountCircle/>}
                                 onClick={() => navigate('/signup')}
                                 color="secondary"

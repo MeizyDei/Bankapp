@@ -5,7 +5,7 @@ const Settings = () => (
     <>
         <Head>
             <title>
-                Settings | Devias Ki
+                Settings
             </title>
         </Head>
         <Box

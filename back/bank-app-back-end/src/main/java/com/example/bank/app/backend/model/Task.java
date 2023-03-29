@@ -19,6 +19,7 @@ public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(nullable = false)
     private String text;
     private Boolean completed = Boolean.FALSE;
     private LocalDateTime createDate;

@@ -20,7 +20,7 @@ function Footer (props) {
         <Typography style={style} variant="body2" color="text.secondary" align="center"{...props}>
             {'### '}
             <Link colo="inherit" href="http://localhost:3000/">
-                Revobank
+                ToDO
             </Link>
             {new Date().getFullYear()}
             {'.'}

@@ -15,8 +15,13 @@ const signupValidationSchema = Yup.object().shape({
     repeatedPassword: Yup.string()
         .min(5)
         .required()
-        .oneOf([Yup.ref('password')], "Must be the same as password value")
+        .oneOf([Yup.ref('password')], "Must be the same as password value"),
+    firstName: Yup.string()
+        .required(),
+    lastName: Yup.string()
+        .required()
 })
+
 
 const SignUp = () => (
 
@@ -69,6 +74,22 @@ const SignUp = () => (
                                        fullWidth
                                        error={!!errors.repeatedPassword && touched.repeatedPassword}
                                        helperText={touched.repeatedPassword && errors.repeatedPassword}
+                                       as={TextField}
+                                />
+                                <Field id="firstName"
+                                       name="firstName"
+                                       label={t("rfirstName")}
+                                       type="text"
+                                       variant="standard"
+                                       fullWidth
+                                       as={TextField}
+                                />
+                                <Field id="lastName"
+                                       name="lastName"
+                                       label={t("rlastName")}
+                                       type="text"
+                                       variant="standard"
+                                       fullWidth
                                        as={TextField}
                                 />
                                 <Button type="submit" sx={{
