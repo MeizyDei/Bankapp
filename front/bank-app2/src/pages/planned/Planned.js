@@ -1,7 +1,6 @@
-import TaskList from "../../controller/TaskList";
+import Task from "../../controller/Task";
 
 const Planned = () => (
-    <TaskList/>
+    <Task/>
 )
-
 export default Planned

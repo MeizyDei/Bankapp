@@ -6,22 +6,25 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDateTime;
-
 @Getter
 @Setter
 @Entity
-@Table(name = "task")
 @NoArgsConstructor
 @AllArgsConstructor
 public class Task {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    @Column(nullable = false)
-    private String text;
-    private Boolean completed = Boolean.FALSE;
-    private LocalDateTime createDate;
 
+    private Long id;
+
+    private String text;
+
+
+    public Task(String text) {
+    }
+
+    public Task(String text, boolean b) {
+    }
 }
+

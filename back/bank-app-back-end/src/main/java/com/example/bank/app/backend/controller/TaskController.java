@@ -1,30 +1,32 @@
 package com.example.bank.app.backend.controller;
-
-import com.example.bank.app.backend.dto.TaskDto;
+import com.example.bank.app.backend.model.Task;
 import com.example.bank.app.backend.service.TaskService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
+@CrossOrigin
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/tasks")
+@RequestMapping("/task")
 public class TaskController {
 
-    private final TaskService taskService;
+    @Autowired
+    private TaskService taskService;
 
-    @GetMapping("/all")
-    public List<TaskDto>getAllTasks(){
+    @PostMapping("/add")
+    public String add(@RequestBody Task task){
+        taskService.saveTask(task);
+        return "New Task is added" + task.getId();
+    }
+
+    @GetMapping("/getAll")
+    public List<Task> getALlTasks(){
         return taskService.getAllTasks();
     }
 
-    @ResponseStatus(HttpStatus.CREATED)
-    @PostMapping
-    public TaskDto createTask(@RequestBody TaskDto taskDto){
-        return taskService.createTask(taskDto);
-    }
-
-
 }
+

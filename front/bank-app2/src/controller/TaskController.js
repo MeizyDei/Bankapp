@@ -6,9 +6,11 @@ import './TaskListCss.css'
 
 function TaskController({tasks, completeTask, removeTask, updateTask}) {
 
+
     const [edit, setEdit] = useState({
         id: null,
         value: ''
+
     })
 
     const submitUpdate = value => {
@@ -19,8 +21,8 @@ function TaskController({tasks, completeTask, removeTask, updateTask}) {
         });
     };
 
-    if(edit.id) {
-        return <TaskForm edit={edit} onSubmit={submitUpdate} />
+    if (edit.id) {
+        return <TaskForm edit={edit} onSubmit={submitUpdate}/>
     }
 
 
@@ -45,3 +47,4 @@ function TaskController({tasks, completeTask, removeTask, updateTask}) {
 }
 
 export default TaskController;
+

@@ -1,37 +1,31 @@
 import * as React from 'react';
-import { Input } from 'antd';
-import {useEffect, useRef, useState} from "react";
+import {Input} from 'antd';
+import {useRef, useState} from "react";
+import {Button} from "@mui/material";
 
-
-
-export function TaskForm (props) {
+export function TaskForm(props) {
 
     const [input, setInput] = useState('');
-
     const inputRef = useRef(null);
 
-    useEffect(() => {
-        inputRef.current.focus()
-    });
-
+    const id = Math.floor(Math.random() * 100000);
     const handleChange = e => {
         setInput(e.target.value);
     };
-    const handleSubmit = e => {
+    const handleSubmit = (e) => {
         e.preventDefault();
 
-        props.onSubmit({
-            id: Math.floor(Math.random() * 100000),
-            text: input
-        });
+        const newTask = {id: Math.floor(Math.random() * 100000), text: input}; // create new object with id
+        props.onSubmit(newTask);
 
         setInput('');
-    };
 
+    };
 
     return (
         <div className="container">
-            <form className="input-container" onSubmit={handleSubmit}>
+            <form className="input-container" onSubmit={handleSubmit}
+            >
                 <Input
                     id="input"
                     name="input"
@@ -41,8 +35,12 @@ export function TaskForm (props) {
                     ref={inputRef}
                 />
             </form>
+            <Button variant="submit" onClick={handleSubmit}>Submit</Button>
 
         </div>
     )
 }
+
+
+
 

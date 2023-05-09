@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6da781d-9565-44eb-9815-cfdcffb71ac6" name="Changes" comment="" />
+    <list default="true" id="c6da781d-9565-44eb-9815-cfdcffb71ac6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/front/bank-app2/src/api/ddd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/dto/TaskDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/dto/TaskDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/TasksRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/api/TaskApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/api/TaskApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/api/UserApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/controller/TaskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/controller/TaskController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/controller/TaskForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/controller/TaskForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/controller/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/controller/Task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/i18nConfig/i18nConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/i18nConfig/i18nConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/layout/dashboard/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/layout/dashboard/Pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/pages/Tasks/Task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/pages/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/pages/auth/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/pages/important/Important.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/pages/important/Important.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/bank-app2/src/pages/planned/Planned.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/bank-app2/src/pages/planned/Planned.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +39,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,6 +55,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/deivi/GIT/Bank/front",
     "node.js.detected.package.eslint": "true",
@@ -88,6 +115,7 @@
       <workItem from="1678647710745" duration="3111000" />
       <workItem from="1678650873819" duration="2404000" />
       <workItem from="1678692762309" duration="383000" />
+      <workItem from="1683560982724" duration="139000" />
     </task>
     <servers />
   </component>

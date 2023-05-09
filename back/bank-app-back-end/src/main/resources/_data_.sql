@@ -1,4 +1,0 @@
--- INSERT INTO TASKS (NAME, DESCRIPTION, CREATE_DATA)
--- VALUES ('Clean rooms', 'kitchen room, bedroom, living room', DEFAULT)
---         ('Go to the gym', '', DEFAULT)
---         ('Read a book' 'The one thing', DEFAULT)

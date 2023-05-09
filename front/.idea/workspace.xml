@@ -5,17 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c48ad29-2446-4f80-9bd4-f0268f2d9c6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-app/src/layout/dashboard/Language.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-app/src/layout/navbar/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/dto/TaskDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/TasksRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/resources/_data_.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/resources/_schema_.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app/src/components/scrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app/src/layout/dashboard/AppDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app/src/layout/dashboard/AppDashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app/src/layout/dashboard/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app/src/layout/dashboard/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app/src/pages/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app/src/pages/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/api/TaskApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/api/UserApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/controller/TaskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/controller/TaskController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/controller/TaskForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/controller/TaskForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/controller/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/controller/Task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/controller/TaskListCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/controller/TaskListCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/i18nConfig/i18nConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/i18nConfig/i18nConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/AppDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/AppDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/AppMainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/AppMainMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/HeaderAndMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/HeaderAndMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/MenuItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/Tasks/Task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/auth/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/auth/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/auth/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/important/Important.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/important/Important.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/planned/Planned.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/planned/Planned.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/planned/balance.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/planned/balance.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,46 +69,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/deivi/GIT/Bank/front/bank-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "ts.external.directory.path": "C:\\Users\\deivi\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\231.7665.28\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/deivi/GIT/Bank/front&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\deivi\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\231.9011.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\deivi\GIT\Bank\front\bank-app\src\layout\dashboard" />
       <recent name="C:\Users\deivi\GIT\Bank\front\bank-app\src\pages" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="front" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="front" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/bank-app2/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/bank-app/package.json" />
@@ -93,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -108,6 +135,8 @@
       <workItem from="1678693147443" duration="9122000" />
       <workItem from="1678731714715" duration="21000" />
       <workItem from="1679055284092" duration="1253000" />
+      <workItem from="1683561125223" duration="12236000" />
+      <workItem from="1683655078107" duration="554000" />
     </task>
     <servers />
   </component>

@@ -2,9 +2,9 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
 const translationEn =
-    { language: "en",mHome: "Home", mImportant: "Important", mPlanned: "Planned", mSend: "Send", mRequest: "Request", pSignUp: "SignUp", pLogin: "Login", bToDoApp: "To Do app", rEmail: "Email", rPassword: "Password", rRepeatedPassword: "Repeated Password", rfirstName: "Firstname", rlastName: "Lastname"};
+    { language: "en",mHome: "Home", mImportant: "Important", mPlanned: "Planned", mSend: "Send", mRequest: "Request", pSignUp: "SignUp", pLogin: "Login", bToDoApp: "To Do app", rEmail: "Email", rPassword: "Password", rRepeatedPassword: "Repeated Password", rfirstName: "Firstname", rlastName: "Lastname", sSettings: "Settings"};
 const translationLt =
-    { language: "lt", mHome: "Pradžia", mImportant: "Svarbiausi", mPlanned: "Suplanuoti", mSend: "Siųsti", mRequest: "Gauti", pSignUp: "Registruotis", pLogin: "Prisijungti", bToDoApp: "To Do programa", rEmail: "elektroninis paštas", rPassword: "Slaptažodis", rRepeatedPassword: "Pakartokite slaptažodį", rfirstName: "Vardas", rlastName: "Pavardė"};
+    { language: "lt", mHome: "Pradžia", mImportant: "Svarbiausi", mPlanned: "Suplanuoti", mSend: "Siųsti", mRequest: "Gauti", pSignUp: "Registruotis", pLogin: "Prisijungti", bToDoApp: "To Do programa", rEmail: "elektroninis paštas", rPassword: "Slaptažodis", rRepeatedPassword: "Pakartokite slaptažodį", rfirstName: "Vardas", rlastName: "Pavardė", sSettings: "Nustatymai"};
 
 i18n.use(initReactI18next).init({
     resources: {

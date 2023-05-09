@@ -16,7 +16,7 @@ const Pages = () => (
                 <Route path="/planned" element={<Planned/>}/>
                 <Route path="/settings" element={<Settings/>}/>
                 <Route path="/signup" element={<SignUp/>}/>
-                <Route path="/login" element={<Login/>}/>
+                {/*<Route path="/login" element={<Login/>}/>*/}
             </Routes>
         )}
     </Translation>

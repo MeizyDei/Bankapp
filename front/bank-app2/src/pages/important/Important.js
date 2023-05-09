@@ -1,7 +1,8 @@
-import TaskList from "../../controller/TaskList";
+import Task from "../../controller/Task";
+
 
 const Important = () => (
-    <TaskList/>
+    <Task/>
 )
 
 export default Important

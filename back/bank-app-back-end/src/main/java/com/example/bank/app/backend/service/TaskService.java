@@ -1,13 +1,17 @@
 package com.example.bank.app.backend.service;
 
-import com.example.bank.app.backend.dto.TaskDto;
-import org.springframework.context.annotation.Bean;
+import com.example.bank.app.backend.model.Task;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public interface TaskService {
 
-    List<TaskDto> getAllTasks();
+    public Task saveTask(Task task);
+    public List<Task> getAllTasks();
 
-    String createTask(TaskDto taskDto);
+
+
 }
+
