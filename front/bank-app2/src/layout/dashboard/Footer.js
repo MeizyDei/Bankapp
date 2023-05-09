@@ -1,4 +1,3 @@
-
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import * as React from "react";
@@ -15,8 +14,8 @@ const style = {
     width: "100%",
 };
 
-function Footer (props) {
-    return(
+function Footer(props) {
+    return (
         <Typography style={style} variant="body2" color="text.secondary" align="center"{...props}>
             {'### '}
             <Link colo="inherit" href="http://localhost:3000/">

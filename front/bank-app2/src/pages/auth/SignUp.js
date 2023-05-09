@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import {Field, Form, Formik} from "formik";
 import * as React from "react";
 import * as Yup from 'yup'
-import { Translation } from "react-i18next";
+import {Translation} from "react-i18next";
 
 const signupValidationSchema = Yup.object().shape({
     email: Yup.string()

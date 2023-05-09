@@ -15,7 +15,7 @@ const darkTheme = createTheme({
 });
 
 function DashboardContent() {
-    return(
+    return (
         <ThemeProvider theme={darkTheme}>
             <Box sx={{display: 'flex'}}>
                 <CssBaseline/>
@@ -37,11 +37,11 @@ function DashboardContent() {
                         <Grid container spacing={3}>
                             <Grid item xs={12}>
                                 <Paper sx={{p: 2, display: 'flex', flexDirection: 'column'}}>
-                                    <Pages />
+                                    <Pages/>
                                 </Paper>
                             </Grid>
                         </Grid>
-                        <Footer sx={{pt: 4}} />
+                        <Footer sx={{pt: 4}}/>
                     </Container>
                 </Box>
             </Box>

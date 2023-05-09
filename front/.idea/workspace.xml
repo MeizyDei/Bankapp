@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c48ad29-2446-4f80-9bd4-f0268f2d9c6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/dto/TaskDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/TasksRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/repository/UserRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/java/com/example/bank/app/backend/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/resources/_data_.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/resources/_schema_.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bank-app-back-end/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/api/TaskApi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/src/api/UserApi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-app2/src/controller/Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/controller/Task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/controller/TaskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/controller/TaskController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/src/controller/TaskForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/controller/TaskForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/src/controller/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/controller/Task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/controller/TaskListCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/controller/TaskListCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/src/i18nConfig/i18nConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/i18nConfig/i18nConfig.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/AppDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/AppDashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/AppMainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/AppMainMenu.js" afterDir="false" />
@@ -36,14 +21,10 @@
       <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/HeaderAndMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/HeaderAndMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/MenuItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/layout/dashboard/Pages.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/Settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/Tasks/Task.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/auth/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/auth/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/auth/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/important/Important.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/important/Important.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/planned/Planned.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/planned/Planned.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-app2/src/pages/planned/balance.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bank-app2/src/pages/planned/balance.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +117,7 @@
       <workItem from="1678731714715" duration="21000" />
       <workItem from="1679055284092" duration="1253000" />
       <workItem from="1683561125223" duration="12236000" />
-      <workItem from="1683655078107" duration="554000" />
+      <workItem from="1683655078107" duration="5871000" />
     </task>
     <servers />
   </component>

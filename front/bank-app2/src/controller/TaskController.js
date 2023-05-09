@@ -1,3 +1,4 @@
+
 import React, {useState} from "react";
 import {RiCloseCircleLine} from "react-icons/ri";
 import {TiEdit} from "react-icons/ti";
@@ -11,7 +12,7 @@ function TaskController({tasks, completeTask, removeTask, updateTask}) {
         id: null,
         value: ''
 
-    })
+    });
 
     const submitUpdate = value => {
         updateTask(edit.id, value);

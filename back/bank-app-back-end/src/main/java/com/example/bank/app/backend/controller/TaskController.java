@@ -1,4 +1,5 @@
 package com.example.bank.app.backend.controller;
+
 import com.example.bank.app.backend.model.Task;
 import com.example.bank.app.backend.service.TaskService;
 import lombok.RequiredArgsConstructor;
@@ -10,12 +11,15 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequiredArgsConstructor
 @RequestMapping("/task")
 public class TaskController {
 
-    @Autowired
-    private TaskService taskService;
+
+    private final TaskService taskService;
+
+    private TaskController(TaskService taskService){
+        this.taskService = taskService;
+    }
 
     @PostMapping("/add")
     public String add(@RequestBody Task task){
@@ -23,6 +27,11 @@ public class TaskController {
         return "New Task is added" + task.getId();
     }
 
+    @PutMapping("/update/{id}")
+    public String update(@PathVariable Long id, @RequestBody Task task) {
+        taskService.updateTask(task);
+        return "Updated task" + task.getId();
+    }
     @GetMapping("/getAll")
     public List<Task> getALlTasks(){
         return taskService.getAllTasks();

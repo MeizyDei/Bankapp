@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Home} from "@mui/icons-material";
+import {Home} from "@mui/icons-material";
 import MenuItem from "./MenuItem";
 import {Translation} from "react-i18next";
 import StarBorderIcon from '@mui/icons-material/StarBorder';

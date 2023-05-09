@@ -11,31 +11,19 @@ import {useState} from "react";
 
 const drawerWidth = 240;
 
-const Drawer = styled(MuiDrawer, {shouldForwardProp: (prop) => prop !== 'open'})(
-    ({theme, open}) => ({
-        '& .MuiDrawer-paper': {
-            position: 'relative',
-            whiteSpace: 'nowrap',
-            width: drawerWidth,
-            transition: theme.transitions.create('width', {
-                easing: theme.transitions.easing.sharp,
-                duration: theme.transitions.duration.enteringScreen,
-            }),
-            boxSizing: 'border-box',
-            ...(!open && {
-                overflowX: 'hidden',
-                transition: theme.transitions.create('width', {
-                    easing: theme.transitions.easing.sharp,
-                    duration: theme.transitions.duration.leavingScreen,
-                }),
-                width: theme.spacing(7),
-                [theme.breakpoints.up('sm')]: {
-                    width: theme.spacing(9),
-                },
-            }),
-        },
-    }),
-);
+const Drawer = styled(MuiDrawer, {shouldForwardProp: (prop) => prop !== 'open'})(({theme, open}) => ({
+    '& .MuiDrawer-paper': {
+        position: 'relative', whiteSpace: 'nowrap', width: drawerWidth, transition: theme.transitions.create('width', {
+            easing: theme.transitions.easing.sharp, duration: theme.transitions.duration.enteringScreen,
+        }), boxSizing: 'border-box', ...(!open && {
+            overflowX: 'hidden', transition: theme.transitions.create('width', {
+                easing: theme.transitions.easing.sharp, duration: theme.transitions.duration.leavingScreen,
+            }), width: theme.spacing(7), [theme.breakpoints.up('sm')]: {
+                width: theme.spacing(9),
+            },
+        }),
+    },
+}),);
 
 const HeaderAndMenu = () => {
     const [open, setOpen] = useState(true);
@@ -43,16 +31,12 @@ const HeaderAndMenu = () => {
         setOpen(!open);
     };
 
-    return (
-        <>
+    return (<>
             <Header drawerWidth={drawerWidth} open={open} toggleDrawer={toggleDrawer}/>
             <Drawer variant="permanent" open={open}>
                 <Toolbar
                     sx={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'flex-end',
-                        px: [1],
+                        display: 'flex', alignItems: 'center', justifyContent: 'flex-end', px: [1],
                     }}
                 >
                     <IconButton onClick={toggleDrawer}>
@@ -64,8 +48,7 @@ const HeaderAndMenu = () => {
                     {AppMainMenu}
                 </List>
             </Drawer>
-        </>
-    )
+        </>)
 }
 
 export default HeaderAndMenu

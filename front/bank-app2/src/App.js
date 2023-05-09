@@ -1,5 +1,5 @@
 import AppDashboard from "./layout/dashboard/AppDashboard";
-import { BrowserRouter } from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import {QueryClient, QueryClientProvider} from "react-query";
 
 
@@ -9,7 +9,7 @@ function App() {
     return (
         <BrowserRouter>
             <QueryClientProvider client={queryClient}>
-                <AppDashboard />
+                <AppDashboard/>
             </QueryClientProvider>
         </BrowserRouter>
     )

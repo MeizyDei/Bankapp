@@ -1,3 +1,4 @@
+
 import React, {useState} from 'react';
 import TaskController from './TaskController';
 import {TaskForm} from "./TaskForm";
@@ -6,18 +7,18 @@ import {TaskForm} from "./TaskForm";
 function Task() {
     const [tasks, setTasks] = useState([]);
 
-    const addTask = task => {
-        if (!task.text || /^\s*$/.test(task.text)) {
+    const addTask = e => {
+        if (!e.text || /^\s*$/.test(e.text)) {
             return;
         }
-        const newTask = {...task, id: Math.floor(Math.random() * 100000)}; // sukurti naują objektą su id
-        const newTasks = [newTask, ...tasks];
+
+        const newTasks = [e, ...tasks];
         setTasks(newTasks);
 
         fetch("http://localhost:8080/task/add", {
             method: "POST",
             headers: {"Content-type": "application/json"},
-            body: JSON.stringify(newTask) // siųsti naują objektą su id į backend'ą
+            body: JSON.stringify({text: e.text})
         })
             .then(() => {
                 console.log("New Task added");
@@ -34,12 +35,28 @@ function Task() {
         }
 
         setTasks(prev => prev.map(item => (item.id === taskId ? newValue : item)));
+
+        const updatedTask = [newValue, ...tasks]
+        setTasks(updatedTask);
+
+        fetch("http://localhost:8080/task/add", {
+            method: "POST",
+            headers: {"Content-type": "application/json"},
+            body: JSON.stringify({text: newValue.text})
+        })
+            .then(() => {
+                console.log(`Task ${taskId} updated`);
+            })
+            .catch((error) => {
+                console.error("Error:", error);
+            });
     };
 
     const removeTask = e => {
         const removeArr = [...tasks].filter(task => task.id !== e)
 
         setTasks(removeArr);
+
     }
 
     const completeTask = e => {
@@ -50,6 +67,15 @@ function Task() {
             return task;
         });
         setTasks(updatedTasks);
+
+        // const task = updatedTasks.find(task => task.id === e);
+        // fetch(`http://localhost:8080/task/${e}`, {
+        //     method: "PUT",
+        //     headers: {"Content-type": "application/json"},
+        //     body: JSON.stringify({isComplete: task.isComplete})
+        // }).then(() => {
+        //     console.log(`Task ${e} updated`);
+        // });
     }
 
     return (

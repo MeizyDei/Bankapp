@@ -26,26 +26,19 @@ const Header = ({drawerWidth, open, toggleDrawer}) => {
     const AppBar = styled(MuiAppBar, {
         shouldForwardProp: (prop) => prop !== 'open',
     })(({theme, open}) => ({
-        zIndex: theme.zIndex.drawer + 1,
-        transition: theme.transitions.create(['width', 'margin'], {
-            easing: theme.transitions.easing.sharp,
-            duration: theme.transitions.duration.leavingScreen,
-        }),
-        ...(open && {
+        zIndex: theme.zIndex.drawer + 1, transition: theme.transitions.create(['width', 'margin'], {
+            easing: theme.transitions.easing.sharp, duration: theme.transitions.duration.leavingScreen,
+        }), ...(open && {
             marginLeft: drawerWidth,
             width: `calc(100% - ${drawerWidth}px)`,
             transition: theme.transitions.create(['width', 'margin'], {
-                easing: theme.transitions.easing.sharp,
-                duration: theme.transitions.duration.enteringScreen,
+                easing: theme.transitions.easing.sharp, duration: theme.transitions.duration.enteringScreen,
             }),
         }),
     }));
 
-
-    return (
-        <Translation>
-            {(t, {i18n}) => (
-                <AppBar position="absolute" open={open}>
+    return (<Translation>
+            {(t, {i18n}) => (<AppBar position="absolute" open={open}>
                     <Toolbar
                         sx={{
                             pr: '24px', // keep right padding when drawer closed
@@ -57,8 +50,7 @@ const Header = ({drawerWidth, open, toggleDrawer}) => {
                             aria-label="open drawer"
                             onClick={toggleDrawer}
                             sx={{
-                                marginRight: '36px',
-                                ...(open && {display: 'none'}),
+                                marginRight: '36px', ...(open && {display: 'none'}),
                             }}
                         >
                             <MenuIcon/>
@@ -73,8 +65,7 @@ const Header = ({drawerWidth, open, toggleDrawer}) => {
                             {t("bToDoApp")}
                         </Typography>
                         <Translation>
-                            {(t, {i18n}) => (
-                                <>
+                            {(t, {i18n}) => (<>
                                     <select value={t("language") === "en" ? "en" : "lt"}
                                             style={{minHeight: "25px", marginLeft: "7px", color: "darkviolet"}}
                                             onChange={changeLanguage}>
@@ -85,8 +76,7 @@ const Header = ({drawerWidth, open, toggleDrawer}) => {
                                             LT
                                         </option>
                                     </select>
-                                </>
-                            )}
+                                </>)}
                         </Translation>
                         <IconButton color="inherit" onClick={() => navigate('/settings')}>
                             <SettingsIcon/>
@@ -112,10 +102,8 @@ const Header = ({drawerWidth, open, toggleDrawer}) => {
                             {t("pSignUp")}
                         </Button>
                     </Toolbar>
-                </AppBar>
-            )}
-        </Translation>
-    )
+                </AppBar>)}
+        </Translation>)
 }
 
 export default Header
